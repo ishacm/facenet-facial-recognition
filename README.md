@@ -32,22 +32,6 @@ An embedding maps input features to vectors, and in a facial recognition system,
 
 Since these vector embeddings are in a shared vector space, vector distance can be used to calculate similarity between two faces. 
 
-## Project Structure
-├── Dockerfile
-├── etc
-│   ├── 20170511–185253
-│       ├── 20170511–185253.pb
-├── data
-├── medium_facenet_tutorial
-│   ├── align_dlib.py
-│   ├── download_and_extract_model.py
-│   ├── init.py
-│   ├── lfw_input.py
-│   ├── preprocess.py
-│   ├── shape_predictor_68_face_landmarks.dat
-│   └── train_classifier.py
-├── requirements.txt
-
 ## Environment Setup
 
 Use of Docker to install TensorFlow, OpenCV, and Dlib. Dlib provides a library for facial detection and alignment.
